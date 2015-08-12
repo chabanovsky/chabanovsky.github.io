@@ -1,1 +1,42 @@
-Test
+---
+layout: main_page
+title: Nicolas Chabanovsky
+---
+
+<div id="up">
+    <div id="featured">
+        {% include index_divider.html section_name="featured" section_link="/" %}
+        <div class="most_featured">
+            <div class="left">
+            </div>
+            <div class="right">
+                <div class="title">
+                </div>
+                <div class="excerpt">
+                </div>
+                <div class="stats">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="down">
+    <div id="latest" class="left">
+        {% include index_divider.html section_name="latest" section_link="/" %}
+    </div>
+    <div id="about" class="right">
+        {% include index_divider.html section_name="about" section_link="/" %}
+        <div class="full left">
+            <div class="short_excerpt">
+                Hello Wold! This is my personal blog!
+            </div>
+            <div class="more_info">
+                <a href="/about">More information</a>
+            </div>
+            <div class="social_links">
+
+            </div>
+        </div>
+    </div>
+</div>
