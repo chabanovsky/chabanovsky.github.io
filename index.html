@@ -24,6 +24,11 @@ title: Nicolas Chabanovsky
 <div id="down">
     <div id="latest" class="left">
         {% include index_divider.html section_name="latest" section_link="/" %}
+        <div class="posts">
+            {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </div>
     </div>
     <div id="about" class="right">
         {% include index_divider.html section_name="about" section_link="/" %}
