@@ -1,0 +1,11 @@
+google_analytics: ""
+
+permalink: /:year/:month/:title/
+
+gems:
+  - jekyll-sitemap
+
+
+exclude:
+    - Gemfile
+    - Gemfile.lock

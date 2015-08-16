@@ -1,43 +1,49 @@
 ---
 layout: main_page
-title: Nicolas Chabanovsky
+title: Делая мир лучше - блог Николая Чабановского
 ---
 
 <div id="up">
     <div id="featured">
-        {% include index_divider.html section_name="featured" section_link="/" %}
+        {% include index_divider.html section_name="в фокусе" section_link="/" %}
         <div class="most_featured">
-            <div class="left">
-            </div>
-            <div class="right">
-                <div class="title">
+            {% assign the_post = site.categories.featured[0] %}
+            <a href="{{ the_post.url }}">
+                <div class="left img">
+                    <img src="{{ the_post.big_image }}"/>
                 </div>
-                <div class="excerpt">
-                </div>
-                <div class="stats">
+                <div class="right">
+                    <div class="title">
+                        {{ the_post.title }}
+                    </div>
+                    <div class="excerpt">
+                        {{ the_post.excerpt }}
+                    </div>
+                    <div class="stats">
 
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>
 <div id="down">
     <div id="latest" class="left">
-        {% include index_divider.html section_name="latest" section_link="/" %}
+        {% include index_divider.html section_name="последние" section_link="/" %}
         <div class="posts">
             {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% include index_post_item.html post=post %}
             {% endfor %}
         </div>
     </div>
     <div id="about" class="right">
-        {% include index_divider.html section_name="about" section_link="/" %}
-        <div class="full left">
+        {% include index_divider.html section_name="о блоге" section_link="/" %}
+        <div class="full">
             <div class="short_excerpt">
-                Hello Wold! This is my personal blog!
+                Блог посвящен информационным технологиям, обществу, предпренимательской деятельности и их пересечению.
             </div>
             <div class="more_info">
-                <a href="/about">More information</a>
+                <a href="/about">Подробнее</a>
             </div>
             <div class="social_links">
 

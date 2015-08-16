@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Список книг, с которыми я рекомендую ознакомиться
+excerpt: Список литературы, которую я считаю интересной к прочтению.
+big_image: /assets/images/list_of_my_favorite_books_big.png
+small_image: /assets/images/list_of_my_favorite_books_big.png
+tags:
+- книги
+categories:
+- featured
 ---
 
 ## {{ page.title }}
