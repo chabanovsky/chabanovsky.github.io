@@ -1,0 +1,22 @@
+---
+layout: main_page
+title: Публикации о информационных технологиях
+---
+
+<div id="latest">
+    <div id="posts" class="left">
+        {% include nav_tabs.html tab_name="it" %}
+        <div class="posts">
+            {% assign posts = site.categories.it %}
+            {% for post in posts %}
+                    {% include latest_post_item.html post=post %}
+            {% else %}
+                {% include none_posts_by_topic.html %}
+            {% endfor %}
+
+        </div>
+    </div>
+    <div class="right">
+        {% include post_list_sidebar.html %}
+    </div>
+</div>

@@ -7,16 +7,40 @@
 
     <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection"/>
 </head>
-<body class="container">
-<div id="header">
-
-</div>
-<div id="content">
-    {{ content }}
-</div>
-<div id="footer">
-
-</div>
-
+<body class="post_container">
+    <div id="header">
+        <a href="/">
+            <div class="logo">
+                Делая мир лучше
+            </div>
+        </a>
+        <div class="meta_data">
+            <div class="left">
+                {{ site.ru_author }}
+            </div>
+            <div class="right">
+                {% if page.location %}{{ page.location }}{% endif %}, {{ page.date | date: "%D" }}
+            </div>
+        </div>
+        <div class="title">
+            <h1>
+                {{ page.title }}
+            </h1>
+        </div>
+        <div class="big_image">
+            <img src="{{ page.big_image }}"/>
+        </div>
+        <div class="excerpt">
+                {{ page.excerpt }}
+        </div>
+        <div class="divider">
+            <img src="/assets/images/line-divider.png"/>
+        </div>
+    </div>
+    <div id="content">
+        {{ content }}
+    </div>
+    <div id="footer">
+    </div>
 </body>
 </html>

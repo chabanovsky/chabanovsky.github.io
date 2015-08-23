@@ -2,13 +2,16 @@
 layout: post
 title: Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия
 excerpt: Краткий конспект книги, с целью подчеркнуть самые интересные идеи
+big_image: /assets/images/note_machiavelli_discourses_on_livy_analysis_big.png
+small_image: /assets/images/note_machiavelli_discourses_on_livy_analysis_small.png
+location: Нью Йорк
 tags:
 - книги
 - никколо-макиавелли
 - тит-ливий
+categories:
+- community
 ---
-
-## {{ page.title }}
 
 ### Общие полезные замечания
 

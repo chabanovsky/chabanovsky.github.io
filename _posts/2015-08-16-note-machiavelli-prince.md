@@ -2,12 +2,15 @@
 layout: post
 title: Конспект книги. Никколо Макиавелли - Государь
 excerpt: Краткий конспект книги Никколо Макиавелли «Государь».
+big_image: /assets/images/note_machiavelli_prince_big.png
+small_image: /assets/images/note_machiavelli_prince_small.png
+location: Нью Йорк
 tags:
 - книги
 - никколо-макиавелли
+categories:
+- community
 ---
-
-## {{ page.title }}
 
 ## Государства управляемые единовластно
 

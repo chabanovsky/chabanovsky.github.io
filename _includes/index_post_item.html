@@ -1,10 +1,18 @@
 <div class="index_post">
     <a href="{{ post.url }}">
-        <div class="title">
-            {{ post.title }}
+        <div class="left">
+            <div class="title">
+                {{ post.title }}
+            </div>
+            <div class="excerpt">
+                {{ post.excerpt}}
+            </div>
+            <div class="meta_data">
+                <div class="date">{{ post.date | date: "%D" }}</div>
+            </div>
         </div>
-        <div class="excerpt">
-            {{ post.excerpt}}
+        <div class="right">
+            <img src="{{ post.small_image }}">
         </div>
     </a>
 </div>

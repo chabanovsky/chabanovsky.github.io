@@ -1,0 +1,20 @@
+---
+layout: main_page
+title: Все публикации
+---
+
+<div id="latest">
+    <div id="posts" class="left">
+        {% include nav_tabs.html tab_name="latest" %}
+        <div class="posts">
+            {% for post in site.posts %}
+                {% include latest_post_item.html post=post %}
+            {% else %}
+                {% include none_posts_by_topic.html %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="right">
+        {% include post_list_sidebar.html %}
+    </div>
+</div>

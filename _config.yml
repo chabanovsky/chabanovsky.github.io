@@ -4,8 +4,20 @@ permalink: /:year/:month/:title/
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
 
 exclude:
     - Gemfile
     - Gemfile.lock
+
+ru_author: "Николай Чабановский"
+en_author: "Nicolas Chabanovsky"
+
+name: "Блог Николая Чабановского"
+description: "Блог посвящен информационным технологиям, обществу и их пересечению."
+url: http://chabanovsky.com
+author:
+  name: "Николай Чабановский"
+  email: nicolas@chabanovsky.com
+  uri: http://chabanovsky.com
