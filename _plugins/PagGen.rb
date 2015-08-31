@@ -21,13 +21,8 @@ module Jekyll
   module Generators
     class Pagination < Generator
       # This generator is safe from arbitrary code execution.
-      # safe true
+      safe true
 
-      # Generate paginated pages if necessary.
-      #
-      # site - The Site.
-      #
-      # Returns nothing.
       def generate(site)
 
         if site.layouts.key? 'tag_index'
