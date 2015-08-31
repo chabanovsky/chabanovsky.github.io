@@ -1,23 +1,87 @@
----
-layout: main_page
-title: Публикации о информационных технологиях
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Публикации о информационных технологиях</title>
+    <meta name="author" content="Nicolas Chabanovsky"/>
 
-<div id="latest">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection"/>
+</head>
+<body class="container">
+    <div id="header">
+        <a href="/">
+            <div>
+                Делая мир лучше
+            </div>
+        </a>
+    </div>
+    <div id="content">
+        <div id="latest">
     <div id="posts" class="left">
-        {% include nav_tabs.html tab_name="it" %}
+        <div id="nav_tabs_container">
+    <ul id="nav_tabs">
+        <li class='item'><a href="/latest/">Все публикации</a></li>
+        <li class='item'><a href="/community/">Сообщество</a></li>
+        <li class='item is-active'><a href="/it/">ИТ</a></li>
+    </ul>
+</div>
 
         <div class="posts">
-            {% for post in paginator.posts %}
-                    {% include latest_post_item.html post=post %}
-            {% else %}
-                {% include none_posts_by_topic.html %}
-            {% endfor %}
+            
+                    <div class="latest_post">
+    <a href="/2015/09/stackexchange-api-for-communities/">
+        
+        <div class="image">
+            <img src="/assets/images/stackexchange_api_big.png">
         </div>
-
-        {% include down_paginator.html page=page paginator=paginator %}
-    </div>
-    <div class="right">
-        {% include post_list_sidebar.html %}
+        
+        <div class="title">
+            Stack Exchange API для сообществ
+        </div>
+        <div class="excerpt">
+            Пример использования Stack Exchange API для создания страницы активности участников сообщества
+        </div>
+    </a>
+    <div class="meta_data">
+        <div class="date">09/04/15, Нью Йорк</div>
+        <div class="tags">
+            
+                <a href="/tagged/stackexchange-api/"><span>stackexchange-api</span></a>
+            
+                <a href="/tagged/stackoverflow/"><span>stackoverflow</span></a>
+            
+        </div>
     </div>
 </div>
+            
+        </div>
+
+        <div class="paginator">
+    
+    
+</div>
+    </div>
+    <div class="right">
+        <div id="about">
+    <div class="name">
+        О блоге
+    </div>
+    <div class="full">
+        <div class="short_excerpt">
+            Блог посвящен информационным технологиям, обществу и их пересечению.
+        </div>
+        <div class="more_info">
+            <a href="/about">Подробнее</a>
+        </div>
+        <div class="social_links">
+
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+    </div>
+    <div id="footer">
+    </div>
+</body>
+</html>

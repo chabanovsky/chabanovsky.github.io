@@ -1,26 +1,43 @@
----
-layout: main_page
-title: Делая мир лучше - блог Николая Чабановского
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Делая мир лучше - блог Николая Чабановского</title>
+    <meta name="author" content="Nicolas Chabanovsky"/>
 
-<div id="up">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection"/>
+</head>
+<body class="container">
+    <div id="header">
+        <a href="/">
+            <div>
+                Делая мир лучше
+            </div>
+        </a>
+    </div>
+    <div id="content">
+        <div id="up">
     <div id="featured">
-        {% include index_divider.html section_name="в фокусе" section_link="/latest/" %}
+        <div class="index_divider">
+    <div class="section_name">
+        <a href="/latest/"> в фокусе</a>
+    </div>
+</div>
         <div class="most_featured">
-            {% assign the_post = site.categories.featured[0] %}
-            <a href="{{ the_post.url }}">
+            
+            <a href="/2015/08/list-of-my-favorite-books/">
                 <div class="left img">
-                    <img src="{{ the_post.big_image }}"/>
+                    <img src="/assets/images/list_of_my_favorite_books_big.png"/>
                 </div>
                 <div class="right">
                     <div class="title">
-                        {{ the_post.title }}
+                        Список книг, с которыми я рекомендую ознакомиться
                     </div>
                     <div class="excerpt">
-                        {{ the_post.excerpt }}
+                        Список литературы, которую я считаю интересной к прочтению.
                     </div>
                     <div class="meta_data">
-                        <div class="date">{{ the_post.date | date: "%D" }}</div>
+                        <div class="date">08/13/15</div>
                     </div>
                 </div>
             </a>
@@ -29,11 +46,108 @@ title: Делая мир лучше - блог Николая Чабановск
 </div>
 <div id="down">
     <div id="latest" class="left">
-        {% include index_divider.html section_name="последние" section_link="/latest/" %}
+        <div class="index_divider">
+    <div class="section_name">
+        <a href="/latest/"> последние</a>
+    </div>
+</div>
         <div class="posts">
-            {% for post in site.posts limit:7 %}
-                {% include index_post_item.html post=post %}
-            {% endfor %}
+            
+                <div class="index_post">
+    <a href="/2015/09/stackexchange-api-for-communities/">
+        <div class="left">
+            <div class="title">
+                Stack Exchange API для сообществ
+            </div>
+            <div class="excerpt">
+                Пример использования Stack Exchange API для создания страницы активности участников сообщества
+            </div>
+            <div class="meta_data">
+                <div class="date">09/04/15</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/assets/images/stackexchange_api_small.png">
+        </div>
+    </a>
+</div>
+            
+                <div class="index_post">
+    <a href="/2015/08/note-tbb/">
+        <div class="left">
+            <div class="title">
+                Стартап без бюджета. Майк Микаловиц. Конспект Книги.
+            </div>
+            <div class="excerpt">
+                В данном конспекте, по большей части, приводятся советы и рекомандации даваемые самим автором в конце каждой главы.
+            </div>
+            <div class="meta_data">
+                <div class="date">08/28/15</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/assets/images/tbb_small.png">
+        </div>
+    </a>
+</div>
+            
+                <div class="index_post">
+    <a href="/2015/08/note-machiavelli-prince/">
+        <div class="left">
+            <div class="title">
+                Конспект книги. Никколо Макиавелли - Государь
+            </div>
+            <div class="excerpt">
+                Краткий конспект книги Никколо Макиавелли «Государь».
+            </div>
+            <div class="meta_data">
+                <div class="date">08/16/15</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/assets/images/note_machiavelli_prince_small.png">
+        </div>
+    </a>
+</div>
+            
+                <div class="index_post">
+    <a href="/2015/08/note-machiavelli-discourses-on-livy-analysis/">
+        <div class="left">
+            <div class="title">
+                Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия
+            </div>
+            <div class="excerpt">
+                Краткий конспект книги, с целью подчеркнуть самые интересные идеи
+            </div>
+            <div class="meta_data">
+                <div class="date">08/13/15</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/assets/images/note_machiavelli_discourses_on_livy_analysis_small.png">
+        </div>
+    </a>
+</div>
+            
+                <div class="index_post">
+    <a href="/2015/08/list-of-my-favorite-books/">
+        <div class="left">
+            <div class="title">
+                Список книг, с которыми я рекомендую ознакомиться
+            </div>
+            <div class="excerpt">
+                Список литературы, которую я считаю интересной к прочтению.
+            </div>
+            <div class="meta_data">
+                <div class="date">08/13/15</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/assets/images/list_of_my_favorite_books_small.png">
+        </div>
+    </a>
+</div>
+            
 
             <div class="more_posts">
                 <a href="/latest/">Больше публикаций</a>
@@ -41,10 +155,14 @@ title: Делая мир лучше - блог Николая Чабановск
         </div>
     </div>
     <div id="about" class="right">
-        {% include index_divider.html section_name="о блоге" section_link="/about/" %}
+        <div class="index_divider">
+    <div class="section_name">
+        <a href="/about/"> о блоге</a>
+    </div>
+</div>
         <div class="full">
             <div class="short_excerpt">
-                {{ site.description }}
+                Блог посвящен информационным технологиям, обществу и их пересечению.
             </div>
             <div class="more_info">
                 <a href="/about/">Подробнее</a>
@@ -55,3 +173,8 @@ title: Делая мир лучше - блог Николая Чабановск
         </div>
     </div>
 </div>
+    </div>
+    <div id="footer">
+    </div>
+</body>
+</html>
