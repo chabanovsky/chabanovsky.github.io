@@ -3,7 +3,6 @@ module Jekyll
     attr_accessor :dir
   end
 
-
   class TagIndex < Page
     def initialize(site, base, dir, tag)
       @site = site
@@ -22,7 +21,7 @@ module Jekyll
   module Generators
     class Pagination < Generator
       # This generator is safe from arbitrary code execution.
-      safe true
+      # safe true
 
       # Generate paginated pages if necessary.
       #
