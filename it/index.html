@@ -6,15 +6,16 @@ title: Публикации о информационных технология
 <div id="latest">
     <div id="posts" class="left">
         {% include nav_tabs.html tab_name="it" %}
+
         <div class="posts">
-            {% assign posts = site.categories.it %}
-            {% for post in posts %}
+            {% for post in paginator.posts %}
                     {% include latest_post_item.html post=post %}
             {% else %}
                 {% include none_posts_by_topic.html %}
             {% endfor %}
-
         </div>
+
+        {% include down_paginator.html page=page paginator=paginator %}
     </div>
     <div class="right">
         {% include post_list_sidebar.html %}

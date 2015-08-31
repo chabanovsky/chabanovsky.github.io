@@ -16,7 +16,7 @@
         <div class="date">{{ post.date | date: "%D" }}{% if post.location %}, {{ post.location }}{% endif %}</div>
         <div class="tags">
             {% for tag in post.tags %}
-                <span>{{ tag }}</span>
+                <a href="/{{ site.tag_dir }}/{{ tag }}/"><span>{{ tag }}</span></a>
             {% endfor %}
         </div>
     </div>

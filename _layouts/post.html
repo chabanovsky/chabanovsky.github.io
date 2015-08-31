@@ -40,6 +40,11 @@
     <div id="content">
         {{ content }}
     </div>
+    {% unless page.no_comments %}
+    <div class="disqus media-padded">
+        {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    </div>
+    {% endunless %}
     <div id="footer">
     </div>
 </body>

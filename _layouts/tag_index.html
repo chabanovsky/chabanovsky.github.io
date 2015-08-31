@@ -1,20 +1,20 @@
 ---
 layout: main_page
-title: Публикации о обществе
 ---
 
 <div id="latest">
     <div id="posts" class="left">
-        {% include nav_tabs.html tab_name="community" %}
-
+        <div id="nav_tabs_container">
+            <ul id="nav_tabs">
+                <li class='item'><a href="/latest/">Все публикации</a></li>
+                <li class='item is-active'><a href="/{{ site.tag_dir }}/{{ page.tag }}/">Публикации отмеченные «{{ page.tag }}»</a></li>
+            </ul>
+        </div>
         <div class="posts">
             {% for post in paginator.posts %}
                 {% include latest_post_item.html post=post %}
-            {% else %}
-                {% include none_posts_by_topic.html %}
             {% endfor %}
         </div>
-
         {% include down_paginator.html page=page paginator=paginator %}
     </div>
     <div class="right">

@@ -21,3 +21,9 @@ author:
   name: "Николай Чабановский"
   email: nicolas@chabanovsky.com
   uri: http://chabanovsky.com
+
+
+disqus: chabanovsky
+
+posts_per_page: 2
+tag_dir: tagged

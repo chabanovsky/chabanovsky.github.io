@@ -31,9 +31,13 @@ title: Делая мир лучше - блог Николая Чабановск
     <div id="latest" class="left">
         {% include index_divider.html section_name="последние" section_link="/latest/" %}
         <div class="posts">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:7 %}
                 {% include index_post_item.html post=post %}
             {% endfor %}
+
+            <div class="more_posts">
+                <a href="/latest/">Больше публикаций</a>
+            </div>
         </div>
     </div>
     <div id="about" class="right">

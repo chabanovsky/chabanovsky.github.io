@@ -1,0 +1,12 @@
+<div class="paginator">
+    {% if include.paginator.next_page %}
+    <div class="backward">
+        <a href="{{ include.base_url }}{{ include.paginator.next_page_path }}">старые</a>
+    </div>
+    {% endif %}
+    {% if include.paginator.previous_page %}
+    <div class="forward">
+        <a href="{{ include.paginator.previous_page_path }}">новые</a>
+    </div>
+    {% endif %}
+</div>

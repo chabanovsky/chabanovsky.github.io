@@ -17,7 +17,7 @@ img {
     padding-top: 60px;
 }
 #content {
-
+    margin-bottom: 100px;
 }
 #footer {
 
@@ -26,6 +26,7 @@ img {
 .container {
     width: 1040px;
     margin: 0px auto;
+    padding: 0 20px;
 }
 
 .full {
@@ -147,11 +148,17 @@ img {
 .latest_post .excerpt {
 }
 
+.latest_post .image {
+    height: 175px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
 .latest_post .image img {
     width: 98%;
     border: none;
     padding: 10px 0px;
-    max-height: 175px;
+    overflow: hidden;
 }
 
 .latest_post .tags span {
@@ -168,6 +175,8 @@ img {
     padding: 6px 5px 4px 6px;
 }
 
+.paginator a,
+#latest .more_posts a,
 #about .more_info a,
 .post_container #header .meta_data div,
 #featured .most_featured .meta_data .date,
@@ -203,6 +212,13 @@ img {
 
 .post_container #header {
     height: auto;
+}
+
+#latest .more_posts {
+    text-align: center;
+    padding-top: 25px;
+    float: left;
+    width: 100%;
 }
 
 .post_container #header .excerpt {
@@ -324,4 +340,21 @@ img {
 .none_posts {
     padding: 40px 0px 50px 0px;
     font-size: 25px;
+}
+
+.paginator {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.paginator .backward {
+    float:left;
+    width: 20%;
+}
+
+.paginator .forward {
+    float:right;
+    width: 20%;
+    text-align: right;
 }
