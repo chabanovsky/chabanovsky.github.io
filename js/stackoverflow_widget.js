@@ -129,8 +129,8 @@ function createQuestionDescription(item) {
     $(owner).addClass("owner");
 
     var last_active = document.createElement("span");
-    var active = new Date(parseInt(1000 * item.last_activity_date));
-    $(last_active).text("изменен " + getDate(active) + " ");
+    var active = new Date(parseInt(1000 * item.creation_date));
+    $(last_active).text("задан " + getDate(active) + " ");
     var author = document.createElement("a");
     $(author).attr("href", item.owner.link);
     $(author).text(item.owner.display_name);
