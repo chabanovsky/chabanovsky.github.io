@@ -5,6 +5,9 @@ var se_api_url = "api.stackexchange.com/2.2/";
 var request_protocol = "http://"
 var api_key = ""
 
+var page_size = 7;
+var sort = "creation"
+
 function init(ids, key) {
 	user_ids = ids;
 	api_key = key;
@@ -31,7 +34,7 @@ function CreateQuestionsFeed(root_element) {
 }
 
 function getUserQuestions(id, successLoadHandler, errorLoadHandler) {
-	final_url = request_protocol + se_api_url + "users/" + id + "/questions?order=desc&sort=activity&site=" + site_url + "&key=" + api_key;
+	final_url = request_protocol + se_api_url + "users/" + id + "/questions?order=desc&sort=" + sort + "&site=" + site_url + "&pagesize=" + page_size + "&key=" + api_key;
     $.ajax({
         type: 'GET',
         url: final_url,
