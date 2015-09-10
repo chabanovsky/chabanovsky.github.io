@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 <link href="http://chabanovsky.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://chabanovsky.com/" rel="alternate" type="text/html" />
-<updated>2015-09-07T11:37:44-04:00</updated>
+<updated>2015-09-10T16:49:03-04:00</updated>
 <id>http://chabanovsky.com/</id>
 <title>Блог Николая Чабановского</title>
 <subtitle>Блог посвящен информационным технологиям, обществу и их пересечению.</subtitle>
@@ -18,7 +18,13 @@
 <published>2015-09-04T00:00:00-04:00</published>
 <updated>2015-09-04T00:00:00-04:00</updated>
 <id>http://chabanovsky.com/2015/09/stackexchange-api-for-communities</id>
-<content type="html" xml:base="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/stackoverflow_widget.css&quot; /&gt;
+<content type="html" xml:base="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/google-code-prettify/prettify.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/stackoverflow_widget.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/extra.css&quot; /&gt;
+
+&lt;script src=&quot;/assets/google-code-prettify/prettify.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
 
@@ -26,7 +32,334 @@
 
 &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;/js/stackoverflow_widget_client.js&quot;&gt;&lt;/script&gt;
 
-&lt;div id=&quot;questions_root&quot;&gt;&lt;/div&gt;
+&lt;h3 id=&quot;section&quot;&gt;Свободный обмен знаниями&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Знание - форма существования и систематизации результатов познавательной деятельности человека. Знание помогает людям рационально организовывать свою деятельность и решать различные проблемы, возникающие в её процессе&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Знания - это сочетание оформленного опыта, ценностей, контекстной информации и взглядов эксперта, которое даёт схему для оценки и объединения нового опыта и информации&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8#.D0.92.D0.B8.D0.B4.D1.8B_.D0.B7.D0.BD.D0.B0.D0.BD.D0.B8.D0.B9&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Знания накапливаются и передаются от поколения к поколению. С появлением информационных технологий процесс накопления знаний стал намного эффективней, а Интернет стал каналом доступа к ним для масс. Так, если ещё 200 лет назад книги были роскошью элиты, то сегодня все, кто имеют доступ к Сети, могут найти практически любую литературу. Масштабность этого явления сложно переоценить - раньше родившийся в семье кузнеца ребёнок в подавляющем большинстве случаев мог стать только кузнецом, теперь каждый имеет возможность самостоятельно выбирать своё будущее. В последние годы широкое распространение получила модель обмена знаниями и опытом между людьми на бескорыстной основе. Как результат, сегодня каждый может воспользоваться такими уникальными проектами, как, например, Википедия или Stack Overflow.&lt;/p&gt;
+
+&lt;p&gt;Меняется и модель обмена знаниями в реальной жизни - появляется большое количество самоорганизующихся тематических сообществ и конференций.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;Самоорганизующиеся технические сообщества&lt;/h3&gt;
+
+&lt;p&gt;Некоммерческие сообщества, посвящённые какой-либо технологии, которые обязаны благодетельности основателей и тем, кто благородно посвящает своё время тому, чтобы другие люди имели возможность получать знания.&lt;/p&gt;
+
+&lt;p&gt;Для организации встречи сообщества необходимо: подобрать удобное место проведения, найти интересных докладчиков, подготовить материалы встречи, а затем опубликовать их  в свободный доступ и, конечно же, организовать слушателей. Организация слушателей и поддержка их интереса к встречам может вызывать осложнения. В классическом понимании это ни что иное как «удержание аудитории». Коммерческие организации закладывают бюджет на ведение корпоративных блогов, учётных записей в социальных сетях и т. д., что позволяет им наращивать аудиторию, не увеличивая затрат на рекламу. С другой стороны, для некоммерческих сообществ работа с уже имеющейся аудиторией на порядок важнее, чем для коммерческих, так как денег на рекламу у них просто нет.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;В&lt;/strong&gt;: Каким же образом организаторам некоммерческих сообществ поддерживать интерес слушателей, не неся издержек?&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;О&lt;/strong&gt;: Предоставить возможность участникам делиться своими профессиональными достижениями!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;Трансляция информации об активности участников сообщества&lt;/h3&gt;
+
+&lt;p&gt;Сообщество - группа людей, имеющих общие интересы&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Один из лучших способов поддержания интереса к сообществу - непрерывно отображать активность его участников.&lt;/p&gt;
+
+&lt;p&gt;На мой взгляд, прекрасным источником такой информации является сайт вопросов и ответов для программистов Stack Overflow. Для русскоязычных сообществ наибольший интерес может представлять его русскоязычная часть.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Что даст вашему сообществу добавление трансляции активности участников на Stack Overflow на русском?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Поддержать уровень вовлечения в сообщество участников без затрат на создание содержимого (а-ля «контента»).&lt;/li&gt;
+  &lt;li&gt;Показать, что сообщество живое.&lt;/li&gt;
+  &lt;li&gt;Отобразить квалификацию докладчиков и участников.&lt;/li&gt;
+  &lt;li&gt;Сблизить сообщество.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Что может быть интересно участникам вашего сообщества?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Профессиональная активность сообщества.&lt;/li&gt;
+  &lt;li&gt;Квалификация докладчиков: репутация, лучшие ответы.&lt;/li&gt;
+  &lt;li&gt;Общий уровень знаний участников: задаваемые вопросы, публикуемые ответы.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Что необходимо для работы со Stack Exchange API?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Получить ключ доступа к Stack Exchange API.&lt;/li&gt;
+  &lt;li&gt;Id учётных записей на Stack Overflow на русском участников, чью информацию вы бы хотели транслировать.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;Ближе к делу! Пример реализации&lt;/h3&gt;
+
+&lt;p&gt;Давайте подробно рассмотрим, как добавить трансляцию информации об активности пользователей сообщества. В качестве примера возьмём четыре учётные записи.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;VladD (&lt;a href=&quot;http://ru.stackoverflow.com/users/10105/vladd&quot;&gt;&lt;code&gt;http://ru.stackoverflow.com/users/10105/vladd&lt;/code&gt;&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Nick Volynkin (&lt;a href=&quot;http://ru.stackoverflow.com/users/181472/nick-volynkin&quot;&gt;&lt;code&gt;http://ru.stackoverflow.com/users/181472/nick-volynkin&lt;/code&gt;&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Nofate (&lt;a href=&quot;http://ru.stackoverflow.com/users/1984/nofate&quot;&gt;&lt;code&gt;http://ru.stackoverflow.com/users/1984/nofate&lt;/code&gt;&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Etki (&lt;a href=&quot;http://ru.stackoverflow.com/users/16095/etki&quot;&gt;&lt;code&gt;http://ru.stackoverflow.com/users/16095/etki&lt;/code&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;sub&gt;Это участники сообщества Stack Overflow на русском, которым я крайне симпатизирую (и не только им). День за днем удивляюсь их знаниям и эрудированности. В сложные для проекта времена именно такие ребята были и остаются для меня источником вдохновения.&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Получение ключа&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Первым шагом является регистрация на &lt;a href=&quot;http://stackapps.com/&quot;&gt;http://stackapps.com/&lt;/a&gt;. В боковой панели раздела «приложения» («apps») вы можете найти ссылку на &lt;a href=&quot;https://api.stackexchange.com/docs&quot;&gt;документацию&lt;/a&gt;, &lt;a href=&quot;http://stackapps.com/apps/oauth/register&quot;&gt;регистрацию нового приложения&lt;/a&gt; или управления существующими.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Идентификаторы учётных записей участников&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;При регистрации в вашем сообществе, попроситье участников добавить ссылку на их учётную запись на Stack Overflow на русском. Для меня идентификаторами будут &lt;code&gt;[&#39;10105&#39;, &#39;181472&#39;, &#39;1984&#39;, &#39;16095&#39;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Активность участников на Stack Overflow на русском&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Вопросы и ответы - это основные типы сообщений на сайте. Для формирования активности участников необходимо &lt;a href=&quot;http://api.stackexchange.com/docs/posts-on-users&quot;&gt;запросить все сообщения, опубликованные ими&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/users/{ids}/posts?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;sub&gt;Обратите внимание: &lt;em&gt;при запросе к серверу идентификаторы перечисляются через &lt;strong&gt;;&lt;/strong&gt;&lt;/em&gt;.&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;В ответ сервер отдает словарь:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;items&quot;: [
+    {
+      &quot;owner&quot;: {
+        &quot;reputation&quot;: integer,
+        &quot;user_id&quot;: integer,
+        &quot;user_type&quot;: string,
+        &quot;accept_rate&quot;: integer,
+        &quot;profile_image&quot;: string,
+        &quot;display_name&quot;: string,
+        &quot;link&quot;: string
+      },
+      &quot;score&quot;: integer,
+      &quot;last_activity_date&quot;: integer,
+      &quot;creation_date&quot;: integer,
+      &quot;post_type&quot;: string,
+      &quot;post_id&quot;: integer,
+      &quot;link&quot;: string
+    },
+    ...
+  ],
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;В системе есть три типа сообщений:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;вопросы, “post_type” - “question”;&lt;/li&gt;
+  &lt;li&gt;ответы, “post_type” - “answer”;&lt;/li&gt;
+  &lt;li&gt;комментарии, “post_type” - “comment”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Обрабатывая данные запроса, следует дополнительно запрашивать информацию о сообщении в зависимости от его типа (поле &lt;code&gt;post_type&lt;/code&gt;). В случае вопроса, мы будем выводить заголовок вопроса, метки, дату публикации. Запрос к серверу на получение ответов выглядит следующим образом.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/questions/{ids}?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;В ответ сервер вернет словарь запрошенных вопросов (в нашем случае, один вопрос с id равный 1).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;items&quot;: [
+    {
+      &quot;tags&quot;: dictionary,
+      &quot;owner&quot;: {
+        &quot;reputation&quot;: integer,
+        &quot;user_id&quot;: integer,
+        &quot;user_type&quot;: string,
+        &quot;profile_image&quot;: string,
+        &quot;display_name&quot;: string,
+        &quot;link&quot;: string
+      },
+      &quot;is_answered&quot;: bool,
+      &quot;view_count&quot;: integer,
+      &quot;accepted_answer_id&quot;: integer,
+      &quot;answer_count&quot;: integer,
+      &quot;community_owned_date&quot;: integer,
+      &quot;score&quot;: integer,
+      &quot;last_activity_date&quot;: integer,
+      &quot;creation_date&quot;: integer,
+      &quot;last_edit_date&quot;: integer,
+      &quot;question_id&quot;: integer,
+      &quot;link&quot;: string,
+      &quot;title&quot;: string
+    },
+    ...
+  ],
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;В случае ответа, нам необходимо запросить и вопрос, и ответ, так как у ответа нет заголовка. Вопрос получаем также, как и в предыдущем случае, а ответ следующим запросом.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/answers/{ids}?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ответ сервера:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;items&quot;: [
+    {
+      &quot;owner&quot;: {
+        &quot;reputation&quot;: integer,
+        &quot;user_id&quot;: integer,
+        &quot;user_type&quot;: string,
+        &quot;accept_rate&quot;: integer,
+        &quot;profile_image&quot;: string,
+        &quot;display_name&quot;: string,
+        &quot;link&quot;: string
+      },
+      &quot;is_accepted&quot;: bool,
+      &quot;score&quot;: integer,
+      &quot;last_activity_date&quot;: integer,
+      &quot;last_edit_date&quot;: integer,
+      &quot;creation_date&quot;: integer,
+      &quot;answer_id&quot;: integer,
+      &quot;question_id&quot;: integer
+    },
+    ...
+  ],
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;С помощью этих запросов за несколько минут можно сформировать html-блок активности участников. Возможно, вы захотите подчеркнуть даты, добавить точное время или любую другую информацию.&lt;/p&gt;
+
+&lt;div class=&quot;example&quot; id=&quot;activity_root&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Квалификация участников&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Для отображения квалификации участника, мы можем воспользоваться шаблоном страницы учётной записи на Stack Overflow на русском (например, &lt;a href=&quot;http://ru.stackoverflow.com/users/6/nicolas-chabanovsky?tab=profile&quot;&gt;моя страница&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Первый шаг - запрос учетных записей.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/users/{ids}?order=desc&amp;amp;sort=reputation&amp;amp;site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;В моем примере наибольший интерес для нас представляет имя пользователя и репутация.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;items&quot;: [
+    {
+      &quot;badge_counts&quot;: {
+        &quot;bronze&quot;: integer,
+        &quot;silver&quot;: integer,
+        &quot;gold&quot;: integer
+      },
+      &quot;account_id&quot;: integer,
+      &quot;is_employee&quot;: bool,
+      &quot;last_modified_date&quot;: integer,
+      &quot;last_access_date&quot;: integer,
+      &quot;age&quot;: integer,
+      &quot;reputation_change_year&quot;: integer,
+      &quot;reputation_change_quarter&quot;: integer,
+      &quot;reputation_change_month&quot;: integer,
+      &quot;reputation_change_week&quot;: integer,
+      &quot;reputation_change_day&quot;: integer,
+      &quot;reputation&quot;: integer,
+      &quot;creation_date&quot;: integer,
+      &quot;user_type&quot;: string,
+      &quot;user_id&quot;: integer,
+      &quot;accept_rate&quot;: integer,
+      &quot;location&quot;: string,
+      &quot;website_url&quot;: string,
+      &quot;link&quot;: string,
+      &quot;profile_image&quot;: string,
+      &quot;display_name&quot;: string
+    },
+    ...
+  ],
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Далее нам надо запросить вопросы и ответы участника, отсортированные по количеству голосов, а затем метки, в которых он (она) отличился наиболее значимо. Вопросы и ответы запрашиваются аналогичным образом, как и в предыдущем примере, кроме одного нюанса. Если запросить ответ через &lt;code&gt;http://api.stackexchange.com/2.2/answers/{ids}&lt;/code&gt;, то почему-то сервер не добавляет ссылку на ответ. Чтобы это исправить, нам необходимо дополнительно запросить информацию о нем через &lt;code&gt;http://api.stackexchange.com/2.2/posts/{ids}&lt;/code&gt;. Моя функция формирования списка ответов выглядит следующим образом.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function createUserAnswerActivities(item) {
+    var answers = document.createElement(&quot;div&quot;);
+    getUsersAnswers(item.user_id, sort_score,
+        function(response){
+            if (response == null)
+                return;
+
+            for (var index = 0; index &amp;lt; response.items.length; index++) {
+                var item = response.items[index];
+
+                getPosts(item.answer_id, sort_score, item, function (context, sub_response) {
+                    if (sub_response == null || sub_response.items.length != 1)
+                        return;
+
+                    getQuestionItemHelper(context.question_id, sub_response.items[0], function(content){
+                        $(answers).append(content);
+                    },
+                    function (initial_item, response_item) {
+                        return createUserActivityItem(response_item.title, initial_item.link, initial_item.score);
+                    });
+
+                }, errorHandler);
+            }
+
+        }, errorHandler, best_posts_page_size);
+
+    return answers;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Лучшие метки можно получить отправив запрос по адресу:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/users/{ids}/top-tags?site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Обратите внимание, что в запросе мы не указываем сортировку. Ответ сервера:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;items&quot;: [
+    {
+      &quot;user_id&quot;: integer,
+      &quot;answer_count&quot;: integer,
+      &quot;answer_score&quot;: integer,
+      &quot;question_count&quot;: integer,
+      &quot;question_score&quot;: integer,
+      &quot;tag_name&quot;: string
+    },
+   ...
+  ],
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Результат.&lt;/p&gt;
+
+&lt;div class=&quot;example&quot; id=&quot;achievement_root&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Общий уровень знаний участников: задаваемые вопросы, публикуемые ответы&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Одной из самых простых задач является формирование списка вопросов и ответов участников сообщества. Для простоты создадим трансляцию вопросов участников. Получить список вопросов можно отправив запрос по адресу&lt;/p&gt;
+
+&lt;p&gt;http://api.stackexchange.com/2.2/users/{ids}/questions?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow&lt;/p&gt;
+
+&lt;p&gt;Единственное «но», на сколько я понимаю, получить текст вопросов нельзя. Результат.&lt;/p&gt;
+
+&lt;div class=&quot;example&quot; id=&quot;questions_root&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Вопросы и ответы по метке&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В завершении, мы можем сформировать ленту лучших вопросов и ответов участников по метке. Все тоже самое, как и раньше, только другой url.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/users/{ids}/tags/{tags}/top-questions?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Список вопросов по метке &lt;span id=&quot;post-tag&quot;&gt;python&lt;/span&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;example&quot; id=&quot;tagged_root&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;Постскриптум&lt;/h3&gt;
+
+&lt;p&gt;Все то, что делают ребята, которые организуют тематические встречи, локальные группы пользователей, конференции, не может не вдохновлять. Они тратят огромное количество времени для того, чтобы мы с вами получали знания.&lt;/p&gt;
+
+&lt;p&gt;С аналогичным оптимизмом подходят к вопросу «обучения сообществом» и свободным знаниям участники Stack Overflow на русском. Пожалуйста, обратите внимание на публикацию на Мете “&lt;a href=&quot;http://meta.ru.stackoverflow.com/questions/883/&quot;&gt;Поддержка «местных сообществ» знаниями&lt;/a&gt;”, и не стесняйтесь обращаться, если вам необходимы докладчики.&lt;/p&gt;
+
 </content>
 <category term="stackexchange-api" />
 <category term="stackoverflow" />
