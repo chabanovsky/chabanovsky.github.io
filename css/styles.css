@@ -5,11 +5,14 @@
 
 a, a:active {
     text-decoration: none;
+}
+
+#post_container a, #post_container a:active {
     cursor: pointer;
     color: #1187A5;
 }
 
-a:hover {
+#post_container a:hover {
     text-decoration: underline;
 }
 
