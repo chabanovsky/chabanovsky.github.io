@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 <link href="http://chabanovsky.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://chabanovsky.com/" rel="alternate" type="text/html" />
-<updated>2015-09-10T17:04:15-04:00</updated>
+<updated>2015-09-13T09:07:23-06:00</updated>
 <id>http://chabanovsky.com/</id>
 <title>Блог Николая Чабановского</title>
 <subtitle>Блог посвящен информационным технологиям, обществу и их пересечению.</subtitle>
@@ -15,8 +15,8 @@
 <entry>
 <title>Stack Exchange API для сообществ</title>
 <link href="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/" rel="alternate" type="text/html" title="Stack Exchange API для сообществ" />
-<published>2015-09-04T00:00:00-04:00</published>
-<updated>2015-09-04T00:00:00-04:00</updated>
+<published>2015-09-04T00:00:00-06:00</published>
+<updated>2015-09-04T00:00:00-06:00</updated>
 <id>http://chabanovsky.com/2015/09/stackexchange-api-for-communities</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/google-code-prettify/prettify.css&quot; /&gt;
 
@@ -33,14 +33,6 @@
 &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;/js/stackoverflow_widget_client.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;Свободный обмен знаниями&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Знание - форма существования и систематизации результатов познавательной деятельности человека. Знание помогает людям рационально организовывать свою деятельность и решать различные проблемы, возникающие в её процессе&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Знания - это сочетание оформленного опыта, ценностей, контекстной информации и взглядов эксперта, которое даёт схему для оценки и объединения нового опыта и информации&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8#.D0.92.D0.B8.D0.B4.D1.8B_.D0.B7.D0.BD.D0.B0.D0.BD.D0.B8.D0.B9&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;p&gt;Знания накапливаются и передаются от поколения к поколению. С появлением информационных технологий процесс накопления знаний стал намного эффективней, а Интернет стал каналом доступа к ним для масс. Так, если ещё 200 лет назад книги были роскошью элиты, то сегодня все, кто имеют доступ к Сети, могут найти практически любую литературу. Масштабность этого явления сложно переоценить - раньше родившийся в семье кузнеца ребёнок в подавляющем большинстве случаев мог стать только кузнецом, теперь каждый имеет возможность самостоятельно выбирать своё будущее. В последние годы широкое распространение получила модель обмена знаниями и опытом между людьми на бескорыстной основе. Как результат, сегодня каждый может воспользоваться такими уникальными проектами, как, например, Википедия или Stack Overflow.&lt;/p&gt;
 
@@ -60,7 +52,7 @@
 
 &lt;h3 id=&quot;section-2&quot;&gt;Трансляция информации об активности участников сообщества&lt;/h3&gt;
 
-&lt;p&gt;Сообщество - группа людей, имеющих общие интересы&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Один из лучших способов поддержания интереса к сообществу - непрерывно отображать активность его участников.&lt;/p&gt;
+&lt;p&gt;Сообщество - группа людей, имеющих общие интересы&lt;sup&gt;&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Один из лучших способов поддержания интереса к сообществу - непрерывно отображать активность его участников.&lt;/p&gt;
 
 &lt;p&gt;На мой взгляд, прекрасным источником такой информации является сайт вопросов и ответов для программистов Stack Overflow. Для русскоязычных сообществ наибольший интерес может представлять его русскоязычная часть.&lt;/p&gt;
 
@@ -368,8 +360,8 @@
 <entry>
 <title>Стартап без бюджета. Майк Микаловиц. Конспект Книги.</title>
 <link href="http://chabanovsky.com/2015/08/note-tbb/" rel="alternate" type="text/html" title="Стартап без бюджета. Майк Микаловиц. Конспект Книги." />
-<published>2015-08-28T00:00:00-04:00</published>
-<updated>2015-08-28T00:00:00-04:00</updated>
+<published>2015-08-28T00:00:00-06:00</published>
+<updated>2015-08-28T00:00:00-06:00</updated>
 <id>http://chabanovsky.com/2015/08/note-tbb</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-tbb/">&lt;h2 id=&quot;section&quot;&gt;Раздел 1. Жизненные принципы&lt;/h2&gt;
 
@@ -551,8 +543,8 @@
 <entry>
 <title>Конспект книги. Никколо Макиавелли - Государь</title>
 <link href="http://chabanovsky.com/2015/08/note-machiavelli-prince/" rel="alternate" type="text/html" title="Конспект книги. Никколо Макиавелли - Государь" />
-<published>2015-08-16T00:00:00-04:00</published>
-<updated>2015-08-16T00:00:00-04:00</updated>
+<published>2015-08-16T00:00:00-06:00</published>
+<updated>2015-08-16T00:00:00-06:00</updated>
 <id>http://chabanovsky.com/2015/08/note-machiavelli-prince</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-machiavelli-prince/">&lt;h2 id=&quot;section&quot;&gt;Государства управляемые единовластно&lt;/h2&gt;
 
@@ -727,8 +719,8 @@
 <entry>
 <title>Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия</title>
 <link href="http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis/" rel="alternate" type="text/html" title="Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия" />
-<published>2015-08-13T00:00:00-04:00</published>
-<updated>2015-08-13T00:00:00-04:00</updated>
+<published>2015-08-13T00:00:00-06:00</published>
+<updated>2015-08-13T00:00:00-06:00</updated>
 <id>http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis/">&lt;h3 id=&quot;section&quot;&gt;Общие полезные замечания&lt;/h3&gt;
 
@@ -901,8 +893,8 @@
 <entry>
 <title>Список книг, с которыми я рекомендую ознакомиться</title>
 <link href="http://chabanovsky.com/2015/08/list-of-my-favorite-books/" rel="alternate" type="text/html" title="Список книг, с которыми я рекомендую ознакомиться" />
-<published>2015-08-13T00:00:00-04:00</published>
-<updated>2015-08-13T00:00:00-04:00</updated>
+<published>2015-08-13T00:00:00-06:00</published>
+<updated>2015-08-13T00:00:00-06:00</updated>
 <id>http://chabanovsky.com/2015/08/list-of-my-favorite-books</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/list-of-my-favorite-books/">&lt;p&gt;Ниже представлен список литературы, которую я считаю интересной к прочтению.&lt;/p&gt;
 
