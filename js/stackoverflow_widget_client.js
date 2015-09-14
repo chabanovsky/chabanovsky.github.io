@@ -11,9 +11,6 @@ $(function() {
     questions_root = $("#questions_root");
     CreateQuestionsFeed(questions_root);
 
-    tagged_root  = $("#tagged_root");
-    CreateTaggedQuestionsFeed(tagged_root);
-
     [].forEach.call(document.getElementsByTagName("pre"), function(el) {
         el.classList.add("prettyprint");
     });

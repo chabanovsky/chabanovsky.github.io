@@ -128,7 +128,7 @@ function getUsersTaggedQuestions(ids, sort, tags, successLoadHandler, errorLoadH
     if (count == undefined || count == null) {
         count = page_size
     }
-	final_url = request_protocol + se_api_url + "users/" + ids + "/tags/" + tags + "/questions?order=desc&sort=" + sort + "&site=" + site_url + "&pagesize=" + count + "&key=" + api_key;
+	final_url = request_protocol + se_api_url + "users/" + ids + "/tags/" + tags + "/top-questions?order=desc&sort=" + sort + "&site=" + site_url + "&pagesize=" + count + "&key=" + api_key;
     $.ajax({
         type: 'GET',
         url: final_url,
