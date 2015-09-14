@@ -7,12 +7,13 @@ a, a:active {
     text-decoration: none;
 }
 
-#post_container a, #post_container a:active {
+.post_container a,
+.post_container a:active {
     cursor: pointer;
     color: #1187A5;
 }
 
-#post_container a:hover {
+.post_container a:hover {
     text-decoration: underline;
 }
 
