@@ -310,6 +310,10 @@ __Вопросы и ответы по метке__
 
     http://api.stackexchange.com/2.2/users/{ids}/tags/{tags}/top-questions?order=desc&sort=activity&site=ru.stackoverflow
 
+---
+
+<sub>Полный код примеров вы можете найти на [GitHub](https://github.com/chabanovsky/stackoverflow_community_widget) или в ресурсах данной страницы.</sub>
+
 ### Постскриптум
 
 Все то, что делают ребята, которые организуют тематические встречи, локальные группы пользователей, конференции, не может не вдохновлять. Они тратят огромное количество времени для того, чтобы мы с вами получали знания.
