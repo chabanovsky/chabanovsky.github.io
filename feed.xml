@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 <link href="http://chabanovsky.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://chabanovsky.com/" rel="alternate" type="text/html" />
-<updated>2015-09-14T07:56:58-06:00</updated>
+<updated>2015-09-14T08:11:38-06:00</updated>
 <id>http://chabanovsky.com/</id>
 <title>Блог Николая Чабановского</title>
 <subtitle>Блог посвящен информационным технологиям, обществу и их пересечению.</subtitle>
@@ -342,6 +342,10 @@
 
 &lt;pre&gt;&lt;code&gt;http://api.stackexchange.com/2.2/users/{ids}/tags/{tags}/top-questions?order=desc&amp;amp;sort=activity&amp;amp;site=ru.stackoverflow
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sub&gt;Полный код примеров вы можете найти на &lt;a href=&quot;https://github.com/chabanovsky/stackoverflow_community_widget&quot;&gt;GitHub&lt;/a&gt; или в ресурсах данной страницы.&lt;/sub&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;section-4&quot;&gt;Постскриптум&lt;/h3&gt;
 
