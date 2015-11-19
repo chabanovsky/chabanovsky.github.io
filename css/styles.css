@@ -43,6 +43,10 @@ p {
     padding: 0 20px;
 }
 
+.post_container #content img {
+    width: 100%;
+}
+
 .full {
     width: 100%;
 }

@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 <link href="http://chabanovsky.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://chabanovsky.com/" rel="alternate" type="text/html" />
-<updated>2015-10-02T10:05:17-06:00</updated>
+<updated>2015-11-19T13:28:32+03:00</updated>
 <id>http://chabanovsky.com/</id>
 <title>Блог Николая Чабановского</title>
 <subtitle>Блог посвящен информационным технологиям, обществу и их пересечению.</subtitle>
@@ -13,10 +13,112 @@
 <uri>http://chabanovsky.com</uri>
 </author>
 <entry>
+<title>Поиск Яндекса как пользовательский интерфейс русскоязычного разработчика для Stack Overflow на русском и на английском</title>
+<link href="http://chabanovsky.com/2015/11/yandex-does-not-index-so/" rel="alternate" type="text/html" title="Поиск Яндекса как пользовательский интерфейс русскоязычного разработчика для Stack Overflow на русском и на английском" />
+<published>2015-11-19T00:00:00+03:00</published>
+<updated>2015-11-19T00:00:00+03:00</updated>
+<id>http://chabanovsky.com/2015/11/yandex-does-not-index-so</id>
+<content type="html" xml:base="http://chabanovsky.com/2015/11/yandex-does-not-index-so/">&lt;p&gt;Для многих не секрет, что пользовательским интерфейсом по умолчанию для Stack Overflow является &lt;em&gt;поисковик&lt;/em&gt;. Вспомните, сколько раз вы напрямую заходили на Stack Overflow в поисках решения, и сопоставьте тому, сколько раз вы попадали на сайт из поисковика. Для русскоязычного разработчика таких пользовательских интерфейсов два: Google и Яндекс. К сожалению, на сегодняшний день только один из них справляется со своей функцией. Данный факт делает слабее все русскоязычное сообщество. И под сообществом я не имею в виду один сайт, я имею в виду именно всех разработчиков, говорящих на прекрасном русском языке!&lt;/p&gt;
+
+&lt;p&gt;Позвольте мне пояснить, о чем я говорю.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/h5Igy.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Рис. 1. Статистика сайта &lt;a href=&quot;http://rus.stackexchange.com/&quot;&gt;Русский язык&lt;/a&gt; &lt;em&gt;до&lt;/em&gt; перехода на платформу Stack Exchange&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/xMtZK.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Рис. 2. Статистика сайта &lt;a href=&quot;http://rus.stackexchange.com/&quot;&gt;Русский язык&lt;/a&gt; &lt;em&gt;после&lt;/em&gt; перехода на платформу Stack Exchange&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Сайт Русский язык взят как более яркий пример описываемой мною проблемы. С сайтами сообществ программистов &lt;a href=&quot;http://ru.stackoverflow.com/&quot;&gt;Stack Overflow на русском&lt;/a&gt; и &lt;a href=&quot;http://ru.stackoverflow.com/&quot;&gt;Stack Overflow на английском&lt;/a&gt; ситуация аналогична. Что еще важно, если вы предполагаете, что русскоязычные программисты используют только Google (возможно, я разочарую вас, но это не так), то вряд ли вы с уверенностью скажите то же самое про лингвистов или филологов.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;В чем же все-таки проблема?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Ответ: в Рунете есть не только Google, но и Яндекс, причем поиском Яндекса пользуется больше людей.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;По &lt;a href=&quot;http://lenta.ru/news/2014/11/11/googleya/&quot;&gt;первой ссылке&lt;/a&gt; в Google на запрос «процент поискового трафика рунета» можно найти, что на конец 2014 года доли поискового трафика Google и Яндекса составляли 31.7% и 59.5% соответственно.&lt;/p&gt;
+
+&lt;p&gt;Можно гордится, что у нас есть «национальный поисковик», ведь такое можно встретить лишь в нескольких странах, но гордость быстро сходит на нет, как только дело коснется действительности.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Поиск у Яндекса и у Google очень разный!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Поисковики «любят» разные типы сайтов, их роботы по-разному обрабатывают robots.txt и sitemap.xml, по-разному реагируют на перелинковку. Данный факт может привести к тому, что успешному проекту, изначально запущенному для русскоязычного рынка, с большой вероятностью придется изменять структуру, и наоборот – успешный международный сайт может вообще не присутствовать в поисковой выдаче Яндекса. Страдает не только бизнес, качественные услуги недополучают конкретные пользователи.&lt;/p&gt;
+
+&lt;p&gt;Именно это мы и наблюдаем со Stack Overflow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/O88go.png&quot; alt=&quot;Переходы из Яндекса на Stack Overflow на английском&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Рис. 3. Переходы из Яндекса на Stack Overflow на английском&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/B5nXK.png&quot; alt=&quot;Источники трафика для Stack Overflow на русском&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Рис. 4. Источники трафика для Stack Overflow на русском&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Только сравните!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;906,665 сессий из Google на Stack Overflow на русском, где 70 000 вопросов&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;и&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;517,180 сессий из Яндекса на Stack Overflow на английском, где более 10 520 000 вопросов!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Разница в количестве страниц в два порядка. К слову, на Stack Overflow на английском за тот же период было зарегистрировано 3 936 522 сессии из Google с установленным русским языком в обозревателе!&lt;/p&gt;
+
+&lt;p&gt;Думаю, не надо быть статистом, чтобы понять, что что-то тут не так. «Программисты не ищут в Яндексе!» – возразите вы мне. Это не так, и, уверен, мы увидим это в самое ближайшее время, как видим сейчас то, что &lt;strong&gt;программисты &lt;em&gt;ищут&lt;/em&gt; на русском&lt;/strong&gt; (посмотрите цифры выше еще раз).&lt;/p&gt;
+
+&lt;p&gt;Чтобы понять проблему, пожалуйста, вспомните описанный мною пример сайта Русский язык. Он для лингвистов! И так же, как и любой сайт сети Stack Exchange, он не ранжируется Яндексом – до перехода на новую платформу в день сайт получал порядка 7К сессий из поиска Яндекса и 6К из поиска Google. На сегодня мы имеем соотношение 5:1 в пользу Google: в день 20К из Google и 4К из Яндекса!&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;Это наша общая проблема!&lt;/h3&gt;
+
+&lt;p&gt;Для меня было бы проще просто забыть про Яндекс. В самом деле, ну не работает у них поиск, да и ладно, это их продуктом никто не будет пользоваться, а не моим, но проблема намного глубже.&lt;/p&gt;
+
+&lt;p&gt;Представьте, вы русскоязычный разработчик и поддались чарам маркетингового отдела Яндекса – предпочитаете поиск Яндекса поиску Google. И тут происходит самое интересное (подчеркну лишь главное):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Решение любой проблемы занимает у вас на порядок больше времени, вне зависимости от того, на каком языке вы ищите&lt;/em&gt;. Яндекс не ранжирует ни один Stack Overflow! Он вообще не ранжирует ни один сайт Stack Exchange!&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;У вас будет далеко не лучший опыт поиска информации на русском языке&lt;/em&gt;. Судя по моему опыту, многие сайты из поисковой выдачи Яндекса ничем как «свалкой информации» не назовешь.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Все те проблемы, которые мы, сообщество профессиональных разработчиков и энтузиастов программирования Stack Overflow на русском, да и компания со своей миссией в целом, пытаемся решить, Яндекс просто сводит к нулю.&lt;/p&gt;
+
+&lt;p&gt;Вопрос выходит далеко за пределы какого-либо сайта, включая сам Яндекс. Мы говорим о том, как русскоязычные программисты, которые без сомнения формируют мнения людей вокруг, относятся к своему языку со всеми вытекающими последствиями. Как результат, даже если это не поможет конкретно Stack Overflow или Яндексу, я готов приложить все усилия, чтобы изменить ситуацию!&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;Как помочь: исправить явные ошибки и выявить неявные&lt;/h3&gt;
+
+&lt;p&gt;Большие дела всегда начинаются с маленьких. На мой взгляд, следует внимательнее проанализировать запросы на поддержку от разных проектов, выявить общие проблемы, понять ошибки и исправить их.&lt;/p&gt;
+
+&lt;p&gt;Что я могу сказать, как минимум, про Stack Overflow на русском сейчас (постараюсь обновлять список по мере поступления новых данных):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Поиск Яндекса неверно обрабатывает 301 перманентное перенаправление&lt;/strong&gt;. Stack Overflow на русском перешел на новый домен еще 8 месяцев назад, но в поиске Яндекса до сих пор можно получить выдачу с корнем сайта и старым названием по запросу &lt;code&gt;site:hashcode.ru&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Яндекс игнорирует сайты, основываясь не на содержимом, а на структуре сайта&lt;/strong&gt;. Мы перевели сайт на новый движок, но все содержимое осталось прежним. Все показатели домена как stackoverflow.com, так и stackexchange.com намного выше, чем были у hashcode.ru. Структура сайтов была идентична. Поисковик не должен ранжировать содержимое в зависимости от названия css классов страницы.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Яндекс не добавляет новые страницы в поиск&lt;/strong&gt;. Согласно &lt;a href=&quot;http://webmaster.yandex.ru&quot;&gt;инструментам веб-мастера Яндекса&lt;/a&gt;, Яндекс добавляет не более 40 страниц (не обязательно вопросов) каждые 14 дней. За это время на Stack Overflow на русском задается более 2 000 вопросов и регистрируется более 800 новых участников.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Для автоматизации указанных ошибок я подготовил тестовый стенд – небольшое Qt–приложение. Приложение доступно в исходных кодах на GitHub по ссылке: &lt;a href=&quot;https://github.com/chabanovsky/querychecker&quot;&gt;github.com/chabanovsky/querychecker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Уверен, ошибок намного больше! Если вы нашли какие-то другие ошибки поиска Яндекса, в результате которых ваш сайт или Stack Overflow на русском не ранжируется, пожалуйста, &lt;a href=&quot;http://ru.stackoverflow.com/users/6/?tab=profile&quot;&gt;напишите мне&lt;/a&gt; об этом!&lt;/p&gt;
+
+&lt;p&gt;Если вы сотрудник Яндекса, я готов лично приехать к вам в любую точку нашей планеты, чтобы содействовать решению технических неисправностей &lt;em&gt;вашего проекта&lt;/em&gt;, &lt;em&gt;лица вашей компании&lt;/em&gt;. Предоставлю любые статистические данные Stack Overflow, при необходимости подключу к решению любого разработчика компании.&lt;/p&gt;
+
+&lt;p&gt;Давайте вместе покажем нашим коллегам и их окружению, что информация на русском языке ни чуть не хуже англоязычной, что она полезна и ее &lt;strong&gt;можно найти&lt;/strong&gt;!&lt;/p&gt;
+
+</content>
+<category term="stackoverflow" />
+<category term="yandex" />
+<summary>Согласно статистике, на данный момент Яндекс фактически не ранжирует Stack Overflow ни на русском, ни на английском. Давайте попробуем понять, почему и как исправить, вместе.</summary>
+</entry>
+<entry>
 <title>Почему я более не принимаю участие в Stack Overflow</title>
 <link href="http://chabanovsky.com/2015/10/why-i-no-longer-contribute-to-stackoverflow/" rel="alternate" type="text/html" title="Почему я более не принимаю участие в Stack Overflow" />
-<published>2015-10-02T00:00:00-06:00</published>
-<updated>2015-10-02T00:00:00-06:00</updated>
+<published>2015-10-02T00:00:00+03:00</published>
+<updated>2015-10-02T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/10/why-i-no-longer-contribute-to-stackoverflow</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/10/why-i-no-longer-contribute-to-stackoverflow/">&lt;h2 id=&quot;section&quot;&gt;Введение&lt;/h2&gt;
 
@@ -30,7 +132,7 @@
 
 &lt;p&gt;Оговорюсь, все комментарии к исходной статье не осилил. Возможно, в них кто-то уже написал все то, что скажу я, а кто-то другой это опроверг. Вопрос о том, быть ли частью сообщества Stack Overflow, – очень субъективный по своей природе. Однозначного мнения о проекте нет и не будет, что и правильно. Все же вклад Stack Overflow в оптимизацию труда разработчиков всего мира сложно переоценить.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;Комментарии.&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;Комментарии&lt;/h2&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;Пункт 1. Плохая педагогика. В общем, утверждение неверно. Давайте попробуем понять почему.&lt;/h3&gt;
 
@@ -127,8 +229,8 @@
 <entry>
 <title>Рекомендации по написанию технической документации для публикации проекта в Unity Asset Store</title>
 <link href="http://chabanovsky.com/2015/09/documentation-for-unity-asset-store/" rel="alternate" type="text/html" title="Рекомендации по написанию технической документации для публикации проекта в Unity Asset Store" />
-<published>2015-09-22T00:00:00-06:00</published>
-<updated>2015-09-22T00:00:00-06:00</updated>
+<published>2015-09-22T00:00:00+03:00</published>
+<updated>2015-09-22T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/09/documentation-for-unity-asset-store</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/09/documentation-for-unity-asset-store/">&lt;h3 id=&quot;section&quot;&gt;Что я подразумеваю под документацией?&lt;/h3&gt;
 
@@ -302,8 +404,8 @@
 <entry>
 <title>Stack Exchange API для сообществ</title>
 <link href="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/" rel="alternate" type="text/html" title="Stack Exchange API для сообществ" />
-<published>2015-09-04T00:00:00-06:00</published>
-<updated>2015-09-04T00:00:00-06:00</updated>
+<published>2015-09-04T00:00:00+03:00</published>
+<updated>2015-09-04T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/09/stackexchange-api-for-communities</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/09/stackexchange-api-for-communities/">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/google-code-prettify/prettify.css&quot; /&gt;
 
@@ -650,8 +752,8 @@
 <entry>
 <title>Стартап без бюджета. Майк Микаловиц. Конспект Книги.</title>
 <link href="http://chabanovsky.com/2015/08/note-tbb/" rel="alternate" type="text/html" title="Стартап без бюджета. Майк Микаловиц. Конспект Книги." />
-<published>2015-08-28T00:00:00-06:00</published>
-<updated>2015-08-28T00:00:00-06:00</updated>
+<published>2015-08-28T00:00:00+03:00</published>
+<updated>2015-08-28T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/08/note-tbb</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-tbb/">&lt;h2 id=&quot;section&quot;&gt;Раздел 1. Жизненные принципы&lt;/h2&gt;
 
@@ -833,8 +935,8 @@
 <entry>
 <title>Конспект книги. Никколо Макиавелли - Государь</title>
 <link href="http://chabanovsky.com/2015/08/note-machiavelli-prince/" rel="alternate" type="text/html" title="Конспект книги. Никколо Макиавелли - Государь" />
-<published>2015-08-16T00:00:00-06:00</published>
-<updated>2015-08-16T00:00:00-06:00</updated>
+<published>2015-08-16T00:00:00+03:00</published>
+<updated>2015-08-16T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/08/note-machiavelli-prince</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-machiavelli-prince/">&lt;h2 id=&quot;section&quot;&gt;Государства управляемые единовластно&lt;/h2&gt;
 
@@ -1009,8 +1111,8 @@
 <entry>
 <title>Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия</title>
 <link href="http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis/" rel="alternate" type="text/html" title="Конспект книги. Никколо Макиавелли - размышления о первой декаде Тита Ливия" />
-<published>2015-08-13T00:00:00-06:00</published>
-<updated>2015-08-13T00:00:00-06:00</updated>
+<published>2015-08-13T00:00:00+03:00</published>
+<updated>2015-08-13T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis/">&lt;h3 id=&quot;section&quot;&gt;Общие полезные замечания&lt;/h3&gt;
 
@@ -1183,8 +1285,8 @@
 <entry>
 <title>Список книг, с которыми я рекомендую ознакомиться</title>
 <link href="http://chabanovsky.com/2015/08/list-of-my-favorite-books/" rel="alternate" type="text/html" title="Список книг, с которыми я рекомендую ознакомиться" />
-<published>2015-08-13T00:00:00-06:00</published>
-<updated>2015-08-13T00:00:00-06:00</updated>
+<published>2015-08-13T00:00:00+03:00</published>
+<updated>2015-08-13T00:00:00+03:00</updated>
 <id>http://chabanovsky.com/2015/08/list-of-my-favorite-books</id>
 <content type="html" xml:base="http://chabanovsky.com/2015/08/list-of-my-favorite-books/">&lt;p&gt;Ниже представлен список литературы, которую я считаю интересной к прочтению.&lt;/p&gt;
 
