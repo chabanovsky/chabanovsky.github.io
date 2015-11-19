@@ -2,8 +2,8 @@
 layout: post
 title: Поиск Яндекса как пользовательский интерфейс русскоязычного разработчика для Stack Overflow на русском и на английском
 excerpt: Согласно статистике, на данный момент Яндекс фактически не ранжирует Stack Overflow ни на русском, ни на английском. Давайте попробуем понять, почему и как исправить, вместе.
-big_image: /assets/images/why_i_no_longer_contribute_to_stackoverflow_big.png
-small_image: /assets/images/why_i_no_longer_contribute_to_stackoverflow_small.png
+big_image: /assets/images/yandex_does_not_index_so_big.png
+small_image: /assets/images/yandex_does_not_index_so_small.png
 location: Санкт-Петербург
 tags:
 - stackoverflow
