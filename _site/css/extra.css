@@ -1,0 +1,36 @@
+pre.prettyprint {
+    border: none !important;
+    overflow: scroll !important;
+}
+
+pre {
+    background-color: #F5F5F5;
+    font-family: Consolas, Monaco, Liberation Mono, Lucida Console, Monospace;
+    font-size: 100%;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 695px;
+    white-space: pre-wrap;
+}
+
+blockquote {
+    background-color: #F5F5F5;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 10px 0 1px 10px;
+    max-width: 650px;
+    text-align: left;
+}
+
+blockquote p {
+    text-align: left;
+}
+
+code {
+    font-family: Consolas, Monaco, Liberation Mono, Lucida Console, Monospace;
+    font-size: 100%;
+    white-space: pre-wrap;
+    background-color: #F5F5F5;
+}
