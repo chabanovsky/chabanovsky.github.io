@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://chabanovsky.com/2016/01/notes-game-design-workshop-part2/</loc>
+    <lastmod>2016-01-13T00:00:00+07:00</lastmod>
+  </url>
+  <url>
     <loc>http://chabanovsky.com/2016/01/notes-geme-design-workshop-part1/</loc>
     <lastmod>2016-01-10T00:00:00+07:00</lastmod>
   </url>
@@ -93,5 +97,8 @@
   </url>
   <url>
     <loc>http://chabanovsky.com/latest/page2/</loc>
+  </url>
+  <url>
+    <loc>http://chabanovsky.com/community/page2/</loc>
   </url>
 </urlset>
