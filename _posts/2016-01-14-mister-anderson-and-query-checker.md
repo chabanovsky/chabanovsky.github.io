@@ -6,10 +6,11 @@ big_image: /assets/images/mister_anderson_and_query_checker_big.png
 small_image: /assets/images/notes_game_design_workshop_part1_small.png
 location: Деревня Фамиана, остров Фукок
 tags:
-- gamedev
-- книги
+- stackoverflow
+- yandex
 categories:
 - community
+- it
 ---
 
 Уверен, многим приходилось сталкиваться с поддержкой Яндекса из-за ужасной работы их поиска. Для Stack Overflow «ужасными» стали индексация и ранжирование в выдаче. [Яндекс просто отказывается работать с любым сайтом сети Stack Exhcange](http://chabanovsky.com/2015/11/yandex-does-not-index-so/)!
