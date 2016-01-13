@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 <link href="http://chabanovsky.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://chabanovsky.com/" rel="alternate" type="text/html" />
-<updated>2016-01-13T20:54:19+07:00</updated>
+<updated>2016-01-13T20:58:17+07:00</updated>
 <id>http://chabanovsky.com/</id>
 <title>Блог Николая Чабановского</title>
 <subtitle>Блог посвящен информационным технологиям, обществу и их пересечению.</subtitle>
@@ -834,11 +834,11 @@
 </entry>
 <entry>
 <title>Конспект первой части книги Game Design Workshop</title>
-<link href="http://chabanovsky.com/2016/01/notes-geme-design-workshop-part1/" rel="alternate" type="text/html" title="Конспект первой части книги Game Design Workshop" />
+<link href="http://chabanovsky.com/2016/01/notes-game-design-workshop-part1/" rel="alternate" type="text/html" title="Конспект первой части книги Game Design Workshop" />
 <published>2016-01-10T00:00:00+07:00</published>
 <updated>2016-01-10T00:00:00+07:00</updated>
-<id>http://chabanovsky.com/2016/01/notes-geme-design-workshop-part1</id>
-<content type="html" xml:base="http://chabanovsky.com/2016/01/notes-geme-design-workshop-part1/">&lt;h1 id=&quot;section&quot;&gt;Введение&lt;/h1&gt;
+<id>http://chabanovsky.com/2016/01/notes-game-design-workshop-part1</id>
+<content type="html" xml:base="http://chabanovsky.com/2016/01/notes-game-design-workshop-part1/">&lt;h1 id=&quot;section&quot;&gt;Введение&lt;/h1&gt;
 
 &lt;p&gt;Геймдизайнер – это специалист, который предвидит, как будет выглядеть опыт игрока во время игры. В первую очередь геймдизайнеру следует отстаивать интересы игроков. Он должен смотреть на игру глазами игроков. Геймдизайнер – человек, который любит создавать игровые ситуации.&lt;/p&gt;
 
