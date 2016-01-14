@@ -3,7 +3,7 @@ layout: post
 title: Проверка наличия сайта в выдаче Яндекса с помощью Query Checker
 excerpt: Как побороть первый редут поддержки Яндекса для случаев, когда поиск Яндекса отказывается индексировать ваш сайт.
 big_image: /assets/images/mister_anderson_and_query_checker_big.png
-small_image: /assets/images/notes_game_design_workshop_part1_small.png
+small_image: /assets/images/mister_anderson_and_query_checker_small.png
 location: Деревня Фамиана, остров Фукок
 tags:
 - stackoverflow
