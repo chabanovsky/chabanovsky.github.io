@@ -1,56 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://chabanovsky.com/2016/02/notes-for-junior-developers/</loc>
+    <lastmod>2016-02-22T00:00:00+03:00</lastmod>
+  </url>
+  <url>
     <loc>http://chabanovsky.com/2016/01/the-art-of-game-design/</loc>
-    <lastmod>2016-01-22T00:00:00+07:00</lastmod>
+    <lastmod>2016-01-22T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2016/01/mister-anderson-and-query-checker/</loc>
-    <lastmod>2016-01-14T00:00:00+07:00</lastmod>
+    <lastmod>2016-01-14T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2016/01/notes-game-design-workshop-part2/</loc>
-    <lastmod>2016-01-13T00:00:00+07:00</lastmod>
+    <lastmod>2016-01-13T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2016/01/notes-game-design-workshop-part1/</loc>
-    <lastmod>2016-01-10T00:00:00+07:00</lastmod>
+    <lastmod>2016-01-10T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2016/01/how-to-setup-stand-on-conf/</loc>
-    <lastmod>2016-01-03T00:00:00+07:00</lastmod>
+    <lastmod>2016-01-03T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/11/yandex-does-not-index-so/</loc>
-    <lastmod>2015-11-19T00:00:00+07:00</lastmod>
+    <lastmod>2015-11-19T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/10/why-i-no-longer-contribute-to-stackoverflow/</loc>
-    <lastmod>2015-10-02T00:00:00+07:00</lastmod>
+    <lastmod>2015-10-02T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/09/documentation-for-unity-asset-store/</loc>
-    <lastmod>2015-09-22T00:00:00+07:00</lastmod>
+    <lastmod>2015-09-22T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/09/stackexchange-api-for-communities/</loc>
-    <lastmod>2015-09-04T00:00:00+07:00</lastmod>
+    <lastmod>2015-09-04T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/08/note-tbb/</loc>
-    <lastmod>2015-08-28T00:00:00+07:00</lastmod>
+    <lastmod>2015-08-28T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/08/note-machiavelli-prince/</loc>
-    <lastmod>2015-08-16T00:00:00+07:00</lastmod>
+    <lastmod>2015-08-16T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/08/note-machiavelli-discourses-on-livy-analysis/</loc>
-    <lastmod>2015-08-13T00:00:00+07:00</lastmod>
+    <lastmod>2015-08-13T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/2015/08/list-of-my-favorite-books/</loc>
-    <lastmod>2015-08-13T00:00:00+07:00</lastmod>
+    <lastmod>2015-08-13T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>http://chabanovsky.com/about/</loc>
@@ -102,6 +106,12 @@
   </url>
   <url>
     <loc>http://chabanovsky.com/tagged/gamedev/</loc>
+  </url>
+  <url>
+    <loc>http://chabanovsky.com/tagged/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
+  </url>
+  <url>
+    <loc>http://chabanovsky.com/tagged/%D1%84%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F/</loc>
   </url>
   <url>
     <loc>http://chabanovsky.com/latest/page2/</loc>
