@@ -4,7 +4,7 @@ title: Как успевать все на работе и не подводит
 excerpt: Несколько советов начинающему разработчику, который хочет стать профессионалом.
 big_image: /assets/images/notes_for_junior_developers_big.png
 small_image: /assets/images/notes_for_junior_developers_small.png
-location: Деревня Фамиана, остров Фукок
+location: Санкт-Петербург
 tags:
 - программирование
 - философия
