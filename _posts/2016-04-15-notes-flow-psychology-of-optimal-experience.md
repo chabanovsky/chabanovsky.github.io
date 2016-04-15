@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Поток. Психология оптимального переживания. Конспект Книги.
-excerpt: Конспект уникальной книги Михая Чиксентмихайи. Первое мысль после прочтения – почему я не прочитал её раньше?
+excerpt: Конспект уникальной книги Михая Чиксентмихайи. Первая мысль после прочтения – почему я не прочитал её раньше?
 big_image: /assets/images/flow_psychology_of_optimal_experience_big.png
 small_image: /assets/images/flow_psychology_of_optimal_experience_small.png
 location: Санкт-Петербург
