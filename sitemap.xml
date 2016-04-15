@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://chabanovsky.com/2016/04/notes-think-fast-and-slow/</loc>
+    <lastmod>2016-04-15T00:00:00+03:00</lastmod>
+  </url>
+  <url>
     <loc>http://chabanovsky.com/2016/02/notes-for-junior-developers/</loc>
     <lastmod>2016-02-22T00:00:00+03:00</lastmod>
   </url>
@@ -117,6 +121,12 @@
     <loc>http://chabanovsky.com/latest/page2/</loc>
   </url>
   <url>
+    <loc>http://chabanovsky.com/latest/page3/</loc>
+  </url>
+  <url>
     <loc>http://chabanovsky.com/community/page2/</loc>
+  </url>
+  <url>
+    <loc>http://chabanovsky.com/tagged/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/page2/</loc>
   </url>
 </urlset>
